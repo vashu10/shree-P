@@ -1,0 +1,36 @@
+.card-container{
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.heading-recent-works{
+    margin: 2rem 2rem 2rem 5rem;
+    font-size: 1rem;
+}
+
+.image-container{
+   overflow: hidden;
+}
+.card-title-dev{
+   text-align: center;
+   margin: 1.5rem auto;
+}
+.card-body{
+    text-align: center;
+    font-size: 15px;
+    margin: 1.5rem  auto 2rem auto;
+    color: rgba(38, 38, 38, 0.845);
+
+}
+
+.recent-card{
+    margin: 10px;
+}

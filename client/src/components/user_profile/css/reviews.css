@@ -1,0 +1,93 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reviews-sections{
+
+    width: 88%;
+    margin: 3rem auto;
+    box-shadow: 5px 5px rgb(231, 231, 231);
+
+    border: 1px solid rgba(197, 195, 195, 0.253);
+    padding: 15px;
+
+    border-radius: 3px;
+}
+.review-txt{
+
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+.up{
+    margin-left: 15px;
+}
+
+
+.reviewer-names,.seller{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1.2rem; ;
+    
+
+}
+
+.reviewer-img>img{
+    width: 3.5rem;
+    margin-right: 1rem;
+    
+}
+
+.reviewer-name, .seller-name{
+    font-size: 1.4rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.stars-review{
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+}
+.reviewer-img{
+
+    font-size: 1.8rem;
+    /* margin: 0 1rem; */
+
+}
+
+.days{
+    margin-left: 0.8rem;
+}
+
+.main-review-p{
+
+    font-size: 1.1rem;
+    margin-left: 6%;
+    color: rgba(29, 29, 29, 0.905);
+}
+
+
+
+.review-seller{
+
+    width: 95%;
+    margin: 1.2rem auto;
+    background-color: rgb(238, 236, 236);
+   
+    padding-top: 8px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+   
+}
+
+
+.seller-response>p{
+    /* margin: 0.2rem auto 0.2rem 20%; */
+
+    margin-left: 2rem;
+    margin-top: -1.2rem;
+}

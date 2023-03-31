@@ -1,0 +1,206 @@
+@import url('http://fonts.cdnfonts.com/css/artifact');
+
+@import url('http://fonts.cdnfonts.com/css/futura-lt');
+
+/* @import url('http://fonts.cdnfonts.com/css/futura'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    position: relative;
+    margin-bottom: 2rem;
+    
+
+}
+
+.ham{
+    position: absolute;
+    left: 5px;
+    top: 22px;
+    cursor: pointer;
+}
+
+.ham > img{
+    display: none;
+    /* cursor: pointer; */
+
+}
+
+.logo-Part{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    text-transform: capitalize;
+    z-index: 1000;
+
+
+}
+
+.fst-part{
+    font-family: 'Artifact', sans-serif;
+    font-weight: 300;
+    font-size: 76px;
+
+}
+
+
+.second-part{
+    font-family: 'Futura';
+    font-weight: normal;
+    
+                                                
+    font-size: 61px;
+}
+
+
+/* styling the ul */
+
+.main-nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    margin-top: 40px;
+
+    
+    
+}
+.drawer-open{
+    overflow-y: hidden;
+}
+
+
+/* stying the onHover part */
+
+.category:hover > ul{
+
+    display: inherit;
+    z-index: 999;
+
+}
+.inner-ul{
+
+    list-style: none;
+    position: absolute;
+    /* margin-top: 2px; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+    width: 160px;
+    margin-left: -25px;
+    background-color: #fff;
+box-shadow: 0px 0px  15px #f5f5f4;
+border: 1px solid rgba(0, 0, 0, 0.094);
+    display: none;
+    /* border-radius: 7px; */
+    
+    
+}
+
+.inner-li{
+    text-align: center;
+    margin-top: 11px;
+
+}
+
+
+
+
+
+    
+@media screen and (max-width: 680px) {
+   .ham > img{
+    display: block;
+    cursor: pointer;
+    z-index: 999;
+
+   }
+
+
+   .main-nav-ul{
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 0 ;
+    /* margin-top: 100px; */
+    /* font-size: 30px; */
+    
+   }
+
+   .main-nav-li{
+    padding: 17px 0;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+    
+
+   }
+
+   .fst-part{
+    font-size: 66px ;
+   }
+
+   .second-part{
+    font-size: 55px;
+    /* color: aqua; */
+   }
+
+   .logo-Part{
+    margin-left: 45px;
+   }
+
+   
+.category:hover > ul{
+
+    display: inherit;
+    margin-bottom: 3rem;
+
+}
+
+   
+   .main-nav{
+
+    display: none;
+}
+
+
+  }
+
+
+  @media screen and (max-width: 620px) {
+
+    .logo-Part{
+        margin-top: 1.8rem;
+    }
+
+    .fst-part{
+        font-size: 40px ;
+       }
+    
+       .second-part{
+        font-size: 30px;
+        /* color: aqua; */
+       }
+
+       .ham > img{
+
+        width: 25px;
+        margin-top: -0.8rem;
+        margin-left: 3px;
+       }
+
+  }
+
+
+
+
+
+
+  

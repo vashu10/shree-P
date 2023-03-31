@@ -1,0 +1,423 @@
+.profile_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile_container_left{
+    flex: 0.7;
+    padding: 10px;
+    color: black;
+
+}
+.full{
+    margin-left: 2rem;
+}
+
+.profile_container_right{
+    flex: 0.3;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 2px; */
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+}
+
+.left_title>img{
+    width: 4.5rem;
+}
+
+.left_heading > h4{
+    font-size: 30px;
+    margin-left: 2rem;
+    font-weight: 500;
+
+}
+
+.left_title{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+}
+
+.left_title>img{
+    padding: 10px;
+
+}
+.left_title>h4{
+    padding: 10px;
+}
+.stars>span{
+    padding: 10px;
+}
+.stars>i{
+    color: gold;
+}
+
+
+.images_part{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.single_image>img{
+    width: 400px;
+}
+.single_image{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: -2rem;
+    z-index: 99;
+}
+
+
+.slider_imgs{
+
+    border: 1px solid rgba(80, 80, 80, 0.508);
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+
+}
+
+.slider_imgs>img{
+    object-fit: fill;
+    width: 100%;
+}
+
+
+
+
+
+
+/* styling the pricing part */
+
+
+.pricing_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 24px;
+    /* font-weight: 600; */
+    /* padding: 3px; */
+
+    border-bottom: 2px solid black ;
+
+}
+.head_one,.head_two,.head_three{
+     
+    font-size: 26px;
+    /* padding: 10px; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.head_one,.head_two{
+
+    padding: 0 16px;
+    border-right: 1px solid black;
+
+
+}
+
+.head_three{
+    padding: 0 16px;
+}
+
+.main_part_pricing{
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.price>span{
+    font-size: 22px;
+    padding: 5px;
+    
+}
+
+.price_text{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.price_delivery{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    /* padding: 5px; */
+}
+
+.checkLists{
+    margin-left: 25%;
+    margin-bottom: 1rem;
+
+}
+
+.checks{
+    margin: 10px;
+    list-style-type: '\2714\0020' ;
+    padding-left: 5px;
+}
+
+.next_btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* font-size: 18px; */
+}
+
+.Send_Message{
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(10, 107, 211);
+
+}
+
+.View_Contact{
+    margin-right: 2rem;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(150, 147, 147);
+    color: white;
+    border: 1px solid white;
+}
+
+.active_head{
+    background-color: rgb(10, 107, 211);
+    color: white;
+    /* width: 50%; */
+    border-radius: 16px 0 0 0;
+}
+
+
+
+@media screen and (max-width: 995px) {
+
+    .profile_container{
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile_container_right{
+        width: 52vw;
+    }
+
+
+}
+
+@media screen and (max-width: 719px) {
+
+    .profile_container_right{
+        width: auto;
+    }
+
+    .left_title>h4{
+        padding: 5px;
+    }
+
+    .stars>span{
+        padding: 4px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .left_heading>h4{
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .left_title>img{
+        width: 4rem;
+    }
+    .left_heading>h4{
+        margin-left: 1rem;
+    }
+
+    .left_title{
+        font-size: 16px;
+    }
+
+    .head_one,.head_two,.head_three{
+        font-size: 22px;
+    }
+    .price>span{
+        font-size: 20px;
+    }
+
+    .profile_container_right{
+        margin-right: 0px;
+    }
+
+    .left_heading>h4{
+        font-size: 24px;
+    }
+
+    .left_title{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .left_title>h4{
+        padding: 2px;
+    }
+    .stars>span{
+        padding: 2px;
+    }
+
+
+}
+
+@media screen and (min-width: 1300px) {
+
+    .left_heading>h4{
+        font-size: 37px;
+    }
+
+    .profile_container_right{
+        margin-right: 1rem;
+    }
+
+    .head_one,.head_two,.head_three{
+        font-size: 30px;
+    }
+    .price>span{
+        font-size: 24px;
+    }
+    .price_text>p{
+        font-size: 20px;
+    }
+
+    .price_delivery>span{
+        font-size: 22px;
+    }
+
+    .checks{
+        font-size: 22px;
+    }
+
+    .Send_Message,.View_Contact{
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1380px) {
+
+    .left_heading>h4{
+        font-size: 42px;
+    }
+
+    .left_title{
+        font-size: 26px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1650px) {
+
+    .left_heading>h4{
+        font-size: 50px;
+    }
+
+    .left_title{
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (min-width: 1800px) {
+
+    .profile_container_right{
+        margin-right: 2rem;
+    }
+
+    .head_one,.head_two,.head_three{
+        font-size: 36px;
+    }
+    .price>span{
+        font-size: 32px;
+        padding: 16px;
+    }
+    .price_text{
+        margin-bottom: 1.3rem;
+    }
+    .price_text>p{
+        font-size: 26px;
+    }
+
+    .price_delivery>span{
+        font-size: 29px;
+    }
+
+    .price_delivery{
+        padding: 12px;
+    }
+
+    .checks{
+        font-size: 28px;
+        margin: 12px;
+    }
+
+    .Send_Message,.View_Contact{
+        font-size: 26px;
+        padding: 16px;
+    }
+
+
+}
+
+
+
+

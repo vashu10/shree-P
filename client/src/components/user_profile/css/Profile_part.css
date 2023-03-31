@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_profile {
+    background-color: rgb(183, 126, 34);
+    height: 40vh;
+    margin-top: 4rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+
+}
+
+.profile_heading {
+    color: white;
+    font-size: 2.9em;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.profile_ul {
+    color: rgba(255, 255, 255, 0.88);
+    margin-left: 19px;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.profile_left {
+    display: flex;
+    flex: 0.6;
+    
+    flex-direction: column;
+    padding-left: 5%;
+    /* border: 1px solid black; */
+
+}
+
+.profile_rating {
+    margin-top: 55px;
+    margin-left: 19px;
+    font-size: 1.5em;
+}
+
+
+.profile_right {
+    margin-left: 2rem;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_picture>img {
+    width: 68%;
+}
+
+.down_banner {
+    width: 100vw;
+    background-color: rgba(174, 153, 153, 0.853);
+    padding: 0.5rem 0.1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.ul_banner {
+    text-transform: capitalize;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 2rem;
+    flex-wrap: wrap;
+
+
+}
+
+.li_banner>span{
+    /* margin: 5px; */
+    margin-right: 6px;
+    /* margin-top: 31px; */
+}
+
+.li_banner {
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+
+
+
+@media screen and (min-height: 940px) {
+
+    .profile_heading {
+        font-size: 3.9em;
+    }
+
+
+    .profile_ul {
+        font-size: 2em;
+    }
+
+    .ul_banner {
+        font-size: 28px;
+    }
+
+    /* .down_banner {
+        /* height: 40px; */
+    /*  */
+
+
+}
+
+
+@media screen and (min-height: 1410px) {
+
+    .profile_heading {
+        font-size: 6.9em;
+    }
+    .profile_picture>img {
+        width: 93%;
+    }
+    .profile_rating{
+        font-size: 2.5rem;
+    }
+
+    .profile_ul {
+        font-size: 2.5em;
+    }
+
+    .ul_banner {
+        font-size: 36px;
+    }
+
+    /* .down_banner {
+        /* height: 70px; */
+    /* } */ 
+
+
+}
+
+
+
+
+@media screen and (max-width: 1066px) {
+    .profile_picture>img {
+        width: 75%;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .profile_right {
+        width: 35vw;
+    }
+
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .profile_right {
+        width: 37vw;
+    }
+
+    .profile_picture>img {
+        width: 88%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 870px) {
+
+    .main_profile {
+        flex-direction: column-reverse;
+        height: 85vh;
+        padding: 20px;
+    }
+
+    .profile_picture>img {
+        width: 95%;
+    }
+
+    .profile_heading {
+        font-size: 4rem;
+    }
+
+    .profile_left {
+        padding-left: 0;
+    }
+
+    .down_banner {
+        justify-content: center;
+        font-size: 14px;
+        /* height: 50px; */
+    }
+
+    .ul_banner {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .profile_picture>img {
+        width: 120%;
+
+        display: block;
+        margin-left: -3rem;
+        margin-right: auto;
+    }
+    .profile_left{
+        margin: auto;
+    }
+
+
+    .profile_picture {
+        width: auto;
+        /* padding: 11em; */
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .down_banner {
+        font-size: 17px;
+        /* height: 40px; */
+    }
+
+    .ul_banner{
+        font-size: 17px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+    .li_banner {
+        padding: 0 14px;
+    }
+    .profile_heading {
+        font-size: 3.5rem;
+    }
+
+    .profile_picture>img {
+        width: 150%;
+        
+        margin-left: -4rem;
+        
+    }
+    .ul_banner{
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 430px) {
+
+    .profile_heading {
+        font-size: 2.8rem;
+    }
+    .ul_banner{
+        font-size: 11px;
+    }
+    .profile_picture>img {
+        width: 170%;
+        
+        margin-left: -4rem;
+        
+    }
+
+
+
+}
